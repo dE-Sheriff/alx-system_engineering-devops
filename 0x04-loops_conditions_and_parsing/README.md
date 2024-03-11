@@ -1,2 +1,1 @@
-#!/bin/bash
-Working wit i/o redirection
+0x04. Loops, conditions and parsing
