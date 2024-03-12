@@ -11,7 +11,8 @@ do
 	while [ $m -le 59 ]
 	do
 		echo "$m"
+		((m++))
 	done
 	m=0
-	h++
+	((h++))
 done
