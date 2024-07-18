@@ -8,7 +8,7 @@ sudo apt-get install haproxy -y
 
 HAPROXY_INIT='/etc/default/haproxy'
 HAPROXY_CONFIG='/etc/haproxy/haproxy.cfg'
-DOMAIN_NAME='peterchibunna.tech'
+DOMAIN_NAME='sheriffsarafadeen.tech'
 HAPROXY_CFG_TEMPLATE="
 #--$DOMAIN_NAME-configuration-begins--
 
@@ -18,8 +18,8 @@ frontend "$DOMAIN_NAME"-frontend
 
 backend "$DOMAIN_NAME"-backend
 	balance roundrobin
-	server 94238-web-01 3.90.80.107:80  check
-	server 94238-web-02 52.91.115.216:80  check
+	server 450095-web-01 3.84.168.223  check
+	server 450095-web-02 100.26.57.196  check
 
 #--$DOMAIN_NAME-configuration-ends--
 "
